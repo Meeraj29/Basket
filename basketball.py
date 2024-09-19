@@ -12,7 +12,4 @@ for i in range(0,len(arr)-inp2+1):
         mx=s
 print(mx)
 
-5
-2
-1 2 3 4 5
-14
+
