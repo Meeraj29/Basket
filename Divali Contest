@@ -1,0 +1,10 @@
+N=int(input())
+P=int(input())
+time_left=4*60-P
+i=1
+problems=0
+while(time_left>=5*i):
+    time_left=time_left-5*i
+    problems+=1
+    i+=1
+print(min(N,problems))
